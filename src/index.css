@@ -1,0 +1,95 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  
+  .logo {
+    height: 32px;
+    margin: 16px;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+  
+  .site-layout .site-layout-background .account-dropdown{
+    margin-top: 16px;
+    margin-right: 18px;
+    float: right;
+  }
+  
+  .site-page-header-ghost-wrapper {
+    padding: 24px;
+    border: 1px solid rgb(235, 237, 240);
+    border-radius: 5px;
+  }
+  .btn_link span {
+    padding: 3px;
+  }
+  
+  .btn_link a {
+    color: #fff;
+  }
+  
+  .days-checkbox{
+    margin-bottom: 25px;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  .image-upload{
+    display: inline-flex;
+    margin-left: 42px;
+    
+  }
+  
+  .image-upload .label-div{
+    width: 105px;
+    margin-right: 10px;
+    height: 40px;
+  }
+  
+  .image-upload .label-div label{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    float: right;
+    margin-top: 5px;
+  }
+  
+  .image-upload .input-file input{
+      margin-bottom: 20px;
+      display: block;
+      max-width: 97%;
+      padding: .250rem .75rem;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 0.85);
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #d9d9d9;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 2px;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
